@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Cairo', sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #eee;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #1d3046;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #2e4863;
+}
+
+.bg-darker{
+    background-color: #2e4863 !important;
+}
+.btn-danger{
+    background-color: #FF6601 !important;
+}
+.btn-danger{
+    outline: none !important;
+    border: none !important;
+    border-radius: 3px !important;
+}
+.navbar .navbar-nav .nav-item a.nav-link:hover{
+    transition: 0.3s;
+    color: #FF6601 !important;
+}
+.line{
+    display: block;
+    background: #FF6601;
+    width: 140px;
+    height: 5px;
+    margin-top: 10px;
+}
+.fs-10{
+    font-size: 2.5rem;
+}
+.icon i{
+    font-size: 3rem;
+    color: #FF6601;
+}
+.item .text p{
+    font-size: 10px;
+}
+.box i{
+    color: #FF6601;
+    font-size: 3.5rem;
+}
+.col-md-3.box.text-center.p-5.shadow-lg.bg-light.border-5{
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    transition: 0.3s;
+}
+.col-md-3.box.text-center.p-5.shadow-lg.bg-light.border-5:hover{
+    transition: 0.3s;
+    z-index: 10;
+}
